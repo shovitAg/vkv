@@ -1,0 +1,292 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  color: #232323;
+}
+
+hr {
+  display: none;
+}
+
+.date {
+  color: #bac9c1;
+  font-size: 1rem;
+}
+
+#introduction-section {
+  background-color: #2e5596;
+  /* background-repeat: no-repeat, repeat;
+  background-size: 100%;
+  background-image: url(https://1.bp.blogspot.com/-8zM4IJ9cm2U/T9lmxDhI2_I/AAAAAAAAEUc/cXF_7fvoJdk/s000/background.jpg); */
+}
+
+.container-fluid {}
+
+.title-bg {
+  background-image: url(https://4.bp.blogspot.com/-a3wGXEreHW0/T9lmxqVAltI/AAAAAAAAEUk/3mx6b5tdAi8/s000/header-bg.png);
+  text-align: center;
+  width: 100%;
+  height: 160px;
+}
+
+.logo-image {
+  width: 95%;
+  height: 150px;
+}
+
+.navbar {
+  background-color: #2E589B;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.nav-item .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu>li:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown-menu>li:hover>.submenu {
+  display: block;
+}
+
+#intro-carousel {
+  padding: 5% 7%;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+
+.carousel-image {
+  border-radius: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 2rem 0;
+}
+
+.carousel-desc {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+#posts {
+  padding: 5%;
+}
+
+.card {
+  text-align: center;
+  border-width: 0;
+  padding: 4rem;
+  border-radius: 15px;
+}
+
+.post-card-image {
+  width: 70%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.post-card-title {
+  margin: 2.5rem 0 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.post-card-text {
+  margin-top: 15px;
+  line-height: 2;
+}
+
+/* Latest Updates */
+#latest-updates {
+  text-align: center;
+  background-color: #2E589B;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.updates-heading {
+  display: inline-block;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.new-gif {
+  width: 5rem;
+  margin: 0 15px;
+  vertical-align: bottom;
+}
+
+.update-link {
+  color: yellow;
+  text-decoration: none;
+}
+
+.update-link:hover {
+  color: #fff;
+}
+
+marquee {
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+
+.update-topic {
+  text-decoration: underline;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Others */
+#others {
+  padding: 5% 1.5%;
+  text-align: center;
+}
+
+.other-card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+  width: 110%;
+}
+
+.others-image {
+  width: 25%;
+}
+
+.others-image1 {
+  width: 100%;
+}
+
+#cta {
+  background-color: #2E589B;
+  color: #fff;
+  padding: 7% 12%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.cta-card-title {
+  font-size: 2.5rem;
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 25px 0;
+}
+
+.cta-card {
+  background-color: #2E589B;
+}
+
+.cta-card-text {
+  margin: 25px 0;
+  line-height: 1.5;
+}
+
+.contact-details {
+  color: #fff;
+}
+
+.social {
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 1.75rem;
+  margin: 60px 30px 0;
+}
+
+/* Footer Section */
+#footer-section {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.credential {
+  margin-top: 1.5rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .nav-item .submenu {
+    left: 0;
+    right: 0;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+
+  .post-card-image {
+    width: 40%;
+  }
+
+  #latest-updates {
+    padding: 7%;
+  }
+
+  .other-card-title {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .others-image1 {
+    width: 50%;
+  }
+
+  hr {
+    display: inline-block;
+  }
+
+  #cta {
+    padding: 15% 5%;
+  }
+
+  #footer-section {
+    font-size: .85rem;
+    padding: 7% 5%;
+  }
+}
