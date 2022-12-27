@@ -250,7 +250,7 @@ marquee {
 }
 
 /* MEDIA QUERY */
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .nav-item .submenu {
     left: 0;
     right: 0;
